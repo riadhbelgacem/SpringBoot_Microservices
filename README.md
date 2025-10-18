@@ -1,6 +1,6 @@
 # E-commerce Microservices with Spring Boot and Spring Cloud
 
-A production-style microservices system for e-commerce, demonstrating clean domain boundaries, centralized configuration, service discovery, secure API ingress, event-driven communication, and observability. This repository is presentation-ready for hiring teams and technical reviewers.
+A production-style microservices system for e-commerce, demonstrating clean domain boundaries, centralized configuration, service discovery, secure API ingress, event-driven communication, and observability.
 
 ## High-Level Architecture
 
@@ -82,9 +82,3 @@ Domain Services
 - Order Service: 8070
 - Payment Service: 8060
 - Notification Service: (configured in discovery; exposed through Gateway)
-
-CI/CD (Optional, for demonstration)
-- Jenkins: 8080
-- SonarQube: 9000
-- Nexus Repository: 8081
-- Apache Tomcat: 8888 (note: ensure no conflict with Config Server when running together)
